@@ -1,0 +1,25 @@
+{
+  "name": "rmp-prebuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/style.css -o ./src/main.css",
+    "watch": "tailwindcss -i ./src/style.css -o ./src/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixiepucker/RMP-prebuild.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixiepucker/RMP-prebuild/issues"
+  },
+  "homepage": "https://github.com/pixiepucker/RMP-prebuild#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
